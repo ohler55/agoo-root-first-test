@@ -25,3 +25,6 @@ class HelloWorld
     [200, {}, ["Found"]]
   end
 end
+
+Agoo::Server.start()
+
