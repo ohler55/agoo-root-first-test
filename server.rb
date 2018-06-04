@@ -26,5 +26,6 @@ class HelloWorld
   end
 end
 
+Agoo::Server.handle(nil, '**', HelloWorld.new)
 Agoo::Server.start()
 
